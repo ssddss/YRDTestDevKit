@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YRDTestDevKit_Example' do
+  pod 'YRDTestDevKit', :path => '../'
+
+  target 'YRDTestDevKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
