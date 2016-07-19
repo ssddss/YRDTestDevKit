@@ -1,0 +1,14 @@
+PODS:
+  - YRDTestDevKit (0.1.0)
+
+DEPENDENCIES:
+  - YRDTestDevKit (from `../`)
+
+EXTERNAL SOURCES:
+  YRDTestDevKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YRDTestDevKit: de12210589a24a07d3b0ab54feb52eae45b59331
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module YRDTestDevKit {
+  umbrella header "YRDTestDevKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
