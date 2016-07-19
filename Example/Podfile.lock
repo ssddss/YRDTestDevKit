@@ -1,5 +1,27 @@
 PODS:
-  - YRDTestDevKit (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - YRDTestDevKit (1.0.0):
+    - YRDTestDevKit/CommonMacros (= 1.0.0)
+    - YRDTestDevKit/HTTP (= 1.0.0)
+    - YRDTestDevKit/Swipe (= 1.0.0)
+  - YRDTestDevKit/CommonMacros (1.0.0)
+  - YRDTestDevKit/HTTP (1.0.0):
+    - AFNetworking
+  - YRDTestDevKit/Swipe (1.0.0)
 
 DEPENDENCIES:
   - YRDTestDevKit (from `../`)
@@ -9,6 +31,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YRDTestDevKit: de12210589a24a07d3b0ab54feb52eae45b59331
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  YRDTestDevKit: a238ff4dda348ffbcd0122730841df7e57f9d75d
 
 COCOAPODS: 0.39.0

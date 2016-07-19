@@ -1,0 +1,1 @@
+../../../../../YRDTestDevKit/Classes/HTTP/Components/BaseAPIManager/YRDAPIBaseManager.h

@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-YRDTestDevKit_Example/AFNetworking.framework"
   install_framework "Pods-YRDTestDevKit_Example/YRDTestDevKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-YRDTestDevKit_Example/AFNetworking.framework"
   install_framework "Pods-YRDTestDevKit_Example/YRDTestDevKit.framework"
 fi

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6D751AB8C0B58F26CD83131B'
+               BlueprintIdentifier = '2F531968F977A263F23C2405'
                BlueprintName = 'YRDTestDevKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'YRDTestDevKit.framework'>
